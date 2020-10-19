@@ -9,13 +9,13 @@ st.beta_set_page_config(page_title="Predicting Specialty Coffee", page_icon="☕
 
 def predict_score(altitude, region, processing, variety):
     # Random Forest, Accuracy: 0.86 (CV) 0.88 (Hold-out)
-    coffee_clf = joblib.load('../model/coffee_clf.joblib')
+    coffee_clf = joblib.load('./model/coffee_clf.joblib')
     input = pd.DataFrame({"altitude": [altitude], "region": [region], "processing": [processing], "variety": [variety]})
     return coffee_clf.predict(input)
 
 def main():
 
-    st.image('../photo/coffeeheader.jpg')
+    st.image('./photo/coffeeheader.jpg')
 
     # Text main
     st.title("☕ How special is your specialty coffee?")
