@@ -23,7 +23,7 @@ def main():
    
     # Sidebar
     st.sidebar.title("What is specialty coffee?")
-    st.sidebar.markdown("Single-origin coffees are considered 'specialty' grade when given a score of 80 (out of 100) or higher by professional coffee tasters (aka [Q-graders](https://www.coffeeinstitute.org/our-work/a_common_language/what-is-a-q-grader/)). Specialty coffees scoring between 80-84.99 are considered *very good* coffees; coffee scoring 85 or more are considered *excellent* coffees.")
+    st.sidebar.markdown("Single-origin arabica coffees are considered 'specialty' grade when given a score of 80 (out of 100) or higher by professional coffee tasters (aka [Q-graders](https://www.coffeeinstitute.org/our-work/a_common_language/what-is-a-q-grader/)). Coffees with a score between 80-84.99 are considered *very good* coffees; coffee scoring 85 or more are considered *excellent* coffees.")
 
     st.sidebar.title("How does this app work?")
     st.sidebar.markdown("Enter the altitude, region of origin, processing method and variety of your coffee. You can find this info on most specialty coffee bag labels or on the roasters' website (try it out [with this label](https://images.unsplash.com/photo-1592250819999-c00fed586048?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)!).")
